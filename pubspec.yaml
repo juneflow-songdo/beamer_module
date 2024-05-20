@@ -3,7 +3,7 @@ description: "Help Applying Beamer in Flutter"
 #publish_to: 'none'
 repository: https://github.com/juneflow-songdo/beamer_module
 
-version: 1.0.0+1
+version: 1.0.1
 
 environment:
   sdk: '>=3.3.1 <4.0.0'

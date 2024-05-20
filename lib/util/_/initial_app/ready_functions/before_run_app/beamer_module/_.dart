@@ -7,8 +7,10 @@ import '../../../../shared_params/_/material_app.dart';
 import '../../../../shared_params/_/material_app_obj.dart';
 import '../../../build_app_widget/build_material_app/_.dart';
 
-@ReadyBeforeRunApp()
+@ReadyBeforeRunApp(index: 1.01)
 Future<void> readyForBeamerModule() async {
+  setBeamerPathUrlStrategy();
+
   currentMaterialApp = MaterialApp.router(
     routeInformationParser: BeamerParser(),
     routerDelegate: beamer_router,
@@ -26,5 +28,5 @@ Future<void> readyForBeamerModule() async {
     },
   );
 
-  setBeamerPathUrlStrategy();
+
 }

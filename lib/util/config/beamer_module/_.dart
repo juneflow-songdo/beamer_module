@@ -4,6 +4,13 @@ import 'package:flutter/material.dart';
 
 import '../../../main.dart';
 
+
+void setBeamerPathUrlStrategy() {
+  // if you want to use hash urls, uncomment the next line
+  // Beamer.setPathUrlStrategy();
+}
+
+
 final beamer_router = BeamerDelegate(
   navigatorObservers: MaterialAppParams.navigatorObservers ?? [],
   locationBuilder: RoutesLocationBuilder(

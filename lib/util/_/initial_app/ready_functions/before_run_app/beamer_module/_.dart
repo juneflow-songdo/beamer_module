@@ -25,4 +25,6 @@ Future<void> readyForBeamerModule() async {
       return materialAppInsideBuilder(context, child);
     },
   );
+
+  setBeamerPathUrlStrategy();
 }

@@ -1,7 +1,7 @@
 name: beamer_module
 description: "Help Applying Beamer in Flutter"
 #publish_to: 'none'
-#repository: https://github.com/melodysdreamj/juneflow
+repository: https://github.com/juneflow-songdo/beamer_module
 
 version: 1.0.0+1
 
